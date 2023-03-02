@@ -13,7 +13,7 @@ function send() {
     },
   });
 };
-function send() {
+function close() {
  alert('系統維護中'); 
 }
 sendButton.addEventListener('click', close);
