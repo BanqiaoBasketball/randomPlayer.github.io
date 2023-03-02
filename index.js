@@ -15,5 +15,5 @@ function send() {
 };
 function closeSystem() {
  alert('系統維護中'); 
-}
+};
 sendButton.addEventListener('click', closeSystem);
