@@ -15,7 +15,6 @@ function send() {
 };
 
 function resetAll() {
-	alert("ttt");
   let name = document.querySelector('#nameValue').value;
   $.ajax({
     url: "https://script.google.com/macros/s/AKfycbxp14AIG00wiwNl-TuDYGKBw6_hRhkNCCePN1jFqggUgy2bBdr_LO62Ycm-eBCLSdMGFw/exec?func=reset",
@@ -29,8 +28,8 @@ function resetAll() {
   });
 };
 
-function closeSystem() {
- alert('系統維護中'); 
-}
-sendButton.addEventListener('click', closeSystem);
+//function closeSystem() {
+// alert('系統維護中'); 
+//}
+//sendButton.addEventListener('click', closeSystem);
 
