@@ -3,7 +3,7 @@ let sendButton = document.querySelector('button');
 function send() {
   let name = document.querySelector('#nameValue').value;
   $.ajax({
-    url: "https://script.google.com/macros/s/AKfycbwT-Yt7LeTUXPPACOBJv6EXgCZRVMf-ft-Od4xpQK0fi7tPjFFtmY7ZYNfQTetQRR_KnQ/exec",
+    url: "https://script.google.com/macros/s/AKfycbwYTpQgLzMJbyhcbru2QHhT2agE9KYgEwuNh-b5E-lrAWyRdfw54HzbqXcgQSLQvpqq1g/exec",
    data: {
         "name": name
     },
@@ -17,7 +17,7 @@ function send() {
 function resetAll() {
   let name = document.querySelector('#nameValue').value;
   $.ajax({
-    url: "https://script.google.com/macros/s/AKfycbwT-Yt7LeTUXPPACOBJv6EXgCZRVMf-ft-Od4xpQK0fi7tPjFFtmY7ZYNfQTetQRR_KnQ/exec?func=reset",
+    url: "https://script.google.com/macros/s/AKfycbwYTpQgLzMJbyhcbru2QHhT2agE9KYgEwuNh-b5E-lrAWyRdfw54HzbqXcgQSLQvpqq1g/exec?func=reset",
    data: {
         "name": name
     },
