@@ -3,7 +3,7 @@ let sendButton = document.querySelector('button');
 function send() {
   let name = document.querySelector('#nameValue').value;
   $.ajax({
-    url: "https://script.google.com/macros/s/AKfycbwxpVqGy0sCqb3hC6aCYNpcpKqA2Xs6Fp94AFIADvlcQ89mY1XsAc9EnPdOztO-Ik2ukg/exec",
+    url: "https://script.google.com/macros/s/AKfycbyJjvyplbztmzMFS33ih7HsQdX-mf7i6n6Dql5JCE5f7UL4yRf4x61F0htgu7IgQPoCbg/exec",
    data: {
         "name": name
     },
