@@ -7,6 +7,7 @@ function send() {
    data: {
         "name": name
     },
+	     crossDomain: true,
     success: function(response) {
         alert(response);
       
@@ -23,6 +24,7 @@ function queryForHtml() {
         "name": name,
 		"func":"queryForHtml"
     },
+	     crossDomain: true,
     success: function(response) {
 			document.getElementById("queryId").innerText =response
 
