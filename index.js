@@ -3,7 +3,7 @@ let sendButton = document.querySelector('button');
 function send() {
   let name = document.querySelector('#nameValue').value;
   $.ajax({
-    url: "https://script.google.com/macros/s/AKfycbxlxnG6G9jj4eeIalNMpChOsrvTS0Ol7l9P6iJeXVHaOfPazVTn_0ogW8m3FEH-S373lw/exec",
+    url: "https://script.google.com/macros/s/AKfycbwmBhDMcWaaHx3l8EmbhFnNZER23SDzx8tj4u5DzA1JjxnentdtVj0lME6USWE1vCZynQ/exec",
    data: {
         "name": name
     },
@@ -19,7 +19,7 @@ function queryForHtml() {
 	document.getElementById("queryId").innerText = "查詢中..";
   let name = document.querySelector('#nameValue').value;
   $.ajax({
-    url: "https://script.google.com/macros/s/AKfycbxlxnG6G9jj4eeIalNMpChOsrvTS0Ol7l9P6iJeXVHaOfPazVTn_0ogW8m3FEH-S373lw/exec?func=queryForHtml",
+    url: "https://script.google.com/macros/s/AKfycbwmBhDMcWaaHx3l8EmbhFnNZER23SDzx8tj4u5DzA1JjxnentdtVj0lME6USWE1vCZynQ/exec?func=queryForHtml",
    data: {
         "name": name,
 		"func":"queryForHtml"
